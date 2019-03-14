@@ -1,4 +1,4 @@
-package com.niknis.sample.niknissamplespringrest.exception;
+package com.niknis.sample.niknissamplespringrest.controller;
 
 import java.time.LocalDateTime;
 
@@ -11,6 +11,9 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.context.request.WebRequest;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
+
+import com.niknis.sample.niknissamplespringrest.exception.ExceptionResponse;
+import com.niknis.sample.niknissamplespringrest.exception.StudentNotFoundException;
 
 @ControllerAdvice //shared b/w multiple controller class
 @RestController
