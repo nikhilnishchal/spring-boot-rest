@@ -3,13 +3,13 @@ Part 1: It contains a sample demo project for Rest Api configuration and interna
 
 
 ### Basic Information
-**Base package:** com.niknis.sample.niknissamplespringrest
-**Model :** com.niknis.sample.niknissamplespringrest.model.*
-**Controller:** com.niknis.sample.niknissamplespringrest.controller.*
-**Exception :** com.niknis.sample.niknissamplespringrest.exception.*
-**Service (Dao Service) :** com.niknis.sample.niknissamplespringrest.service.*
-**Application property:** resources\application.properties
-**Internationalization message:** resources\message\*
+**Base package:** com.niknis.sample.niknissamplespringrest<br/>
+**Model :** com.niknis.sample.niknissamplespringrest.model.*<br/>
+**Controller:** com.niknis.sample.niknissamplespringrest.controller.*<br/>
+**Exception :** com.niknis.sample.niknissamplespringrest.exception.*<br/><br/>
+**Service (Dao Service) :** com.niknis.sample.niknissamplespringrest.service.*<br/>
+**Application property:** resources\application.properties<br/>
+**Internationalization message:** resources\message\*<br/>
 **Log config:** resources\log4j2.xml
 
 ### SpringBootApp: NiknisSampleSpringrestApplication.java
