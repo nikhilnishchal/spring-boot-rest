@@ -80,7 +80,7 @@
 		    <version>2.9.2</version>
 		</dependency>
 		
-		<!-- monitor rest apis using actuator andhal browser -->
+		<!-- monitor rest apis using actuator and hal browser -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-actuator</artifactId>
