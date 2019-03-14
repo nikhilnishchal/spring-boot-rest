@@ -19,10 +19,10 @@ For Dynamic filet used the model StudentExtDyn.jav and filter name "studentExtDy
 Both type filter is handled in controller : StudentExtFilterController.java
 
 #### Url (other than defined in all rest controller ):
-http://localhost:8080/actuator/
-http://localhost:8080//v2/api-docs
-http://localhost:8080/swagger-ui.html
-http://localhost:8080/browser/index.html#/
+* http://localhost:8080/actuator/
+* http://localhost:8080//v2/api-docs
+* http://localhost:8080/swagger-ui.html
+* http://localhost:8080/browser/index.html#/
 
 
 
