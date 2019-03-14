@@ -13,11 +13,12 @@ https://github.com/nikhilnishchal/spring-boot-rest/tree/master/niknis-sample-spr
 
 **Pom Update:** Added Dependency for Swagger, swaggerUi and actuator<br/>
 *SwaggerConfig:** com.niknis.sample.niknissamplespringrest.config.SwaggerConfigrator.java<br/>
-**Filter:** Here following type of filer used:<br/>
+**Filter:** Here following type of filter used:<br/>
 * As dynamic for specific controller <br/>
-* Static filer (using @JsonIgnoreProperties and @JsonIgnore)<br/>
+* Static filter (using @JsonIgnoreProperties and @JsonIgnore)<br/>
+
 For static filter used model is :  StudentExt.java<br/>
-For Dynamic filet used model is:  StudentExtDyn.java and filter name "studentExtDynFilter"<br/>
+For Dynamic filter used model is:  StudentExtDyn.java and filter name "studentExtDynFilter"<br/>
 Both type filter is handled in controller : StudentExtFilterController.java
 
 #### Url (other than defined in all rest controller ):
