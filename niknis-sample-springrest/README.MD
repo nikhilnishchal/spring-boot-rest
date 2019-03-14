@@ -1,5 +1,5 @@
 # niknis-sample-springrest
-Part 1: It contains a sample demo project for Rest Api configuration and internationalization using spring boot.
+Part 1: It contains a sample demo project for Rest Api configuration, hateoas and internationalization using spring boot.
 
 
 ### Basic Information
