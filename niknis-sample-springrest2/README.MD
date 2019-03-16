@@ -24,5 +24,15 @@ Both type filter is handled in controller : StudentExtFilterController.java
 * http://localhost:8080/swagger-ui.html
 * http://localhost:8080/browser/index.html#/
 
-
+#### Versioning in REST
+Versioning related model and controller defined in **com.niknis.sample.niknissamplespringrest.version**
+<br/>
+There is two model : StudentModelV1 as for version 1 (in this one field for name )<br/>
+StudentModelV1 as version 2 (in this two field for name as firstName and lastName)<br/>
+Controller created StudentVerController<br/>
+In this different approach is used to get the version feature as:<br/>
+* URI Versioning
+* Request Parameter Versioning
+* Media type/Accept header /content negotiation versioning
+* (Custom) Header versioning
 
