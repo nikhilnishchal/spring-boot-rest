@@ -36,5 +36,11 @@ In this different approach is used to get the version feature as:<br/>
 * Media type/Accept header /content negotiation versioning
 * (Custom) Header versioning
 
+#### To add basic authentication security we need to add spring-boot-starter-security dependency in pom.
+It will apply auto besic authentication on all rest api. So, to call service need to provide basic authentication details. details:<br/>
+default username : user
+password : It will shown in console it time on application up.<br/>
+Custom user name and password can be set from application.properties.<br/>
+
 
 
