@@ -40,21 +40,23 @@ In this different approach is used to get the version feature as:<br/>
 * Media type/Accept header /content negotiation versioning
 * (Custom) Header versioning
 
-#### To add basic authentication security we need to add spring-boot-starter-security dependency in pom.
+#### Basic Authentication : To add basic authentication security we need to add spring-boot-starter-security dependency in pom.
 It will apply auto besic authentication on all rest api. So, to call service need to provide basic authentication details. details:<br/>
 default username : user
 password : It will shown in console it time on application up.<br/>
 Custom user name and password can be set from application.properties.<br/>
 
 
-####JPA and REST
-Related to JPA for sample all examples is under package: com.niknis.sample.niknissamplespringrest.jpa.*<br/>
+#### JPA and REST
+Related to JPA for sample all examples is under package: **com.niknis.sample.niknissamplespringrest.jpa.*** <br/>
 jpa and h2 dependency is added there in pom.xml. Log enabled through application.properties<br/>
 Model used as StudentDBModel in which JPA annotation is used to create table.<br/>
 The created table is as below from log:<br/>
+    
     Hibernate: drop table student if exists<br/>
     Hibernate: drop sequence if exists hibernate_sequence<br/>
     Hibernate: create sequence hibernate_sequence start with 1 increment by 1<br/>
     Hibernate: create table student (id integer not null, school varchar(255), dob date, name varchar(255), role integer, primary key (id))<br/>
-
+    
+ 
 
