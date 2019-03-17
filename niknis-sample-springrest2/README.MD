@@ -59,4 +59,12 @@ The created table is as below from log:<br/>
     Hibernate: create table student (id integer not null, school varchar(255), dob date, name varchar(255), role integer, primary key (id))<br/>
     
  
+There is added data.sql to insert some data in this table on system up.To view data h2-console is there.<br/>
+Note: we can use default h2-console to test the data in table. Need to comment **"spring-boot-starter-security"** for getting h2-console view default.
+In this configured a class **SecurityConfiguration** for security authentication to bypass h2-console.So It will ignore the http://localhost:8080/h2-console/** path and apply security on our rest api only.<br/>
+Table can be viewed on path http://localhost:8080/h2-console/ <br/>
+Configuration: JDBC url > jdbc:h2:mem:testdb; driver class> org.h2.Driver; setting name > Generic H2 (Embedded); username > sa, password blank<br/>
+In case want to test rest without security, it can be achieved by removing its dependency and config.<br/>
+
+
 
