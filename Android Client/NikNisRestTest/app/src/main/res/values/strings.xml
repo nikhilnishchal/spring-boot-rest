@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">NiNis Test</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello fragment</string>
+    <string name="s_pref_file">com.android.niknisresttest.sh_preference_file</string>
+    <string name="s_pref_login_status">com.android.niknisresttest.sh_preference_login_status</string>
+    <string name="s_pref_name">sh_preference_name</string>
+    <string name="s_pref_email">sh_preference_email</string>
+    <string name="s_pref_date">sh_preference_date</string>
+    <string name="s_pref_token">sh_preference_token</string>
+
+
+</resources>
